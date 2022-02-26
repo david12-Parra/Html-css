@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "es">
+
+    <head>
+        <meta charset = "UTF-8">
+        <title>Autocomplete y require</title>
+        <meta name = "description" content = "Uso del atributo autocomplete y require">
+        <meta name = "robots" content = "index,follow">
+        <meta name = "viewport" content = "width=devide-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+        <header>
+            <h1 style = "color: aqua;">Ingresa tu informacion personal.</h1>
+        </header>
+
+        <main>
+            <form action = "">
+                <p>
+                    <label for = "name">
+                        <span>Ingresa tu nombre:</span>
+                        <input type = "text" name = "name" id = "name" autocomplete = "name" required>
+                    </label>
+                </p>
+                <p>
+                    <label for = "last name">
+                        <span>Ingresa tu apellido:</span>
+                        <input type = "text" name = "last name" id = "last name" autocomplete = "family-name" required>
+                    </label>
+                </p>
+                <p>
+                    <label for = "phone number">
+                        <span>Ingres tu numero telefonico:</span>
+                        <input type = "tel" name = "phone number" id = "phone number" autocomplete = "tel" required pattern = "([0-9]{3}){2}([0-9]{2}){2}">
+                    </label>
+                </p>
+                <p>
+                    <label for = "email">
+                        <span>Ingresa tu correo electronico:</span>
+                        <input type = "email" name = "email" id = "email" autocomplete = "email" required>
+                    </label>
+                </p>
+                <p>
+                    <label for = "country">
+                        <span>Ingresa tu nacionalidad:</span>
+                        <input type = "text" name = "country" id = "country" autocomplete = "country" required>
+                    </label>
+                </p>
+                <p>
+                    <input type = "submit">
+                </p>
+            </form>
+        </main>
+
+    </body>
+
+</html>

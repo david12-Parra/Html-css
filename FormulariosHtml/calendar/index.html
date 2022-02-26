@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "es">
+
+    <head>
+        <meta charset = "UTF-8">
+        <title>Calendarios en html</title>
+        <meta name = "description" content = "Uso y manipluacion de Calendarios">
+        <meta name = "robots" content = "index,follow">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+            <h1 style = "color: aqua;">Selecciona le fecha en la que desear tener tu vieaje.</h1>
+        </header>
+       <main>
+           <form action = "">
+               <label for = "hora">
+                   <span>Hora</span>
+                   <input type = "time" name = "hora" id = "hora">
+               </label>
+               <label for = "dia">
+                   <span>Dia</span>
+                   <input type = "date" name = "dia" id = "dia">
+               </label>
+               <label for = "semana">
+                   <span>Semana</span>
+                   <input type = "week" name = "semana" id = "semana">
+               </label>
+               <label for = "mes">
+                    <span>Mes</span>
+                    <input type = "month" name = "mes" id = "mes">
+               </label>
+               <input type = "submit">
+           </form>
+           <p></p>
+           <form action = "">
+               <label for = "calendario">
+                   <span>Calendario</span>
+                   <input type = "datetime-local" name = "calendario" id = "calendario">
+               </label>
+               <input type = "submit">
+               <input type = "search">
+           </form>
+       </main> 
+    </body>
+
+</html>
