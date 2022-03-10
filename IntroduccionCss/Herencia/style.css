@@ -1,0 +1,15 @@
+/*
+ Se le esta aplicando estilos sobre la etiqueta principal de html.
+*/
+html{
+    font-size: 70%;
+    font-family: cursive;
+}
+
+/*
+ Estamos aplicando un estilo sobre la etiqueta de h1, este estilo estara presente en todas las etiquetas h1
+ Es decir, la cambio realizado se presentara en todas las etiquetas.
+*/
+h1{
+    color: aqua;
+}
