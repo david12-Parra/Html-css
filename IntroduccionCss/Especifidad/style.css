@@ -1,0 +1,46 @@
+/*
+ Normalmente no se utilizan id (identificadores) para no tener conflictos posteriormente, esto de debe
+ a la importancia que toma dentro de css. Por tal motivo crearemos clases.
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+/*
+ Esto se hace cuando queremos aplicar un estilo diferente a un elemento que abarca a varios elementos.
+ Hacemos referencia al contenedor padre y luego colocamos el nombre de la nueva clase que se va a 
+ generar con el nuevo estilo para este contenedor.
+*/
+.main-nav .blog {
+    color: aqua;
+}
+
