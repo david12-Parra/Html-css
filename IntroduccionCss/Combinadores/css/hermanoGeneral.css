@@ -1,0 +1,8 @@
+/*
+ 
+*/
+h2 ~ p {
+    color: red;
+    padding: 5px;
+    background-color: aqua;
+}

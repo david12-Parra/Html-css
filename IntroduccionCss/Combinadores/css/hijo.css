@@ -1,0 +1,17 @@
+/*
+ Este es al uso de los combinadores de css, este nos permite combinar multiples selectores
+ y nos ayuda a mejorar la especificidad.
+
+ Este combinador aplica los cambios para los parrafos que esten contenidos dentro de la etiqueta
+ div, pero no contenidos dentro de otra etiquetas mas.
+
+ Es decir solo aplica los cambios para los parrafos que solo estan contenidos en el div, sin 
+ estar presentes dentro de otra etiqueta.
+
+ El parrafo debe ser hijo directo de la etiqueta div.
+*/
+div > p {
+    color: red;
+    padding: 5px;
+    background-color: aqua;
+}

@@ -1,0 +1,16 @@
+/*
+ Este es el uso de los combinadores en css, este nos permite combinar multiples selectores
+ y nos ayuda a mejorar la especifidad.
+
+ Para este caso aplica los cambios a todos lo elementos que esten contenidos dentro de un div,
+ tambien se le aplica a los parrafos que esten contenidos dentro de otra etiqueta.
+
+ Este le aplica a todos los elementos p contenidos dentro de div.
+ 
+*/
+
+div p {
+    color: red;
+    padding: 5px;
+    background-color: aqua;
+}

@@ -1,0 +1,19 @@
+/* 
+ Combinadores en css
+ En este caso vamos a utilizar el combinador de hermano adyacente o cercano.
+ A este combinacion se le realizan a los parrafos que estan debajo de un h2.
+*/
+
+h2 + p {
+    color: red;
+    padding: 5px;
+    background-color: aqua;
+    border-radius: 3px;
+}
+
+/* 
+ Este es un pseudo elemento que nos ayuda o nos permite agregarle contenido extra a nuestro parrafo.
+*/
+h2 + p::after {
+    content: "  hermano adyacente";
+}
