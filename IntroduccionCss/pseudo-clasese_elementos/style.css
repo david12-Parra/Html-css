@@ -1,0 +1,47 @@
+/*
+ Aplica para los elementos contenidos en la etiqueta div.
+*/
+div::after {
+    content: "after";
+    color: red;
+    border-radius: 2px;
+}
+
+/*
+ Aplica para todos lo elementos div.
+*/
+div {
+    color: black;
+    padding: 3px;    
+}
+
+/*
+ Aplica para cambios para el nuevo contenido a introducir dentro del contenedor.
+*/
+div::before {
+    content: "before";
+    color: aqua;
+    border: 2px solid;
+}
+
+/* 
+ Se esta configurando el tipo de estilo para la lista desordenda.
+*/
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+li:hover {
+    text-decoration: underline solid aqua 2px;
+    color: blue;
+}
+
+p::first-letter {
+    color: aqua;
+    font-size: 30px;
+}
