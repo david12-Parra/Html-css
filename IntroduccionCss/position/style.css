@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.parent {
+    border: 2px solid black;
+    display: inline-block;
+    height: 105px;
+}
+
+.box {
+    background: aqua;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.ejercicio {
+    margin: 50px 500px;
+    display: inline-block;
+}
+
+
+.titulo {
+    border: 2px solid red;
+    border-radius:  5px;
+    background-color: red;
+    width: 50px;
+    position: relative;
+    top: 7px;
+    left: 150px;
+    opacity: 0.9;
+}
+
+.contenido {
+    height: 100px;
+    width: 350px;
+    border: 2px solid gray;
+    background-color: gray;
+    border-radius: 5px;
+}

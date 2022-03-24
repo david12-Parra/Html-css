@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "es"> 
+
+    <head>
+        <meta charset = "UTF-8">
+        <title>DISPLAY CSS</title>
+        <meta name = "description" content = "estilos en css, estilo en cascada, diseño, paginas web">
+        <meta name = "robots" content = "index, follow">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href ="style.css">
+    </head> 
+
+    <body>
+        <!--Estas etiquetas o tag implementan por defecto el display block, es decir, estas etiquetas van a tomar todo el width de nuestra pagina web-->
+        <div class = "block-element">Esta es una etiqueta div</div>
+        <p class = "block-element">Esta es una etiqueta de parrafo</p>
+        <div class = "block-element">
+            <p class = "parrafo">Soy un texto</p>
+            <p class = "parrafo">Soy un texto</p>
+            <p class = "parrafo">Soy un texto</p>
+        </div>
+        <!--Por otra parte esta etiqueta su displar en inline, es decir, todos su contenido va a ser de forma lineal hasta que se acabe el espacio
+            de nuestro contenedor, normalmente no se le puede agregar un margin o un padding, ya que su contenido es de forma lineal.
+            Utiliza el espacion de su contenedor-->
+        <span>Soy una etiqueta span</span>
+        <span>Soy una etiqueta span</span>
+        <!--Para este caso, la etiqueta tiene por defecto el display en inline.block, es decir, por cada elementos agregado va a utilizar todo el width
+        de nuestra pagina web-->
+        <ul class = "nav">
+            <li>Home</li>
+            <li>Cursos</li>
+            <li>Categorias</li>
+            <li>Blog</li>
+        </ul>
+        <header>
+            <nav class = "header-nav">
+                <ul class = "navegation">
+                    <li>Home</li>
+                    <li>Cursos</li>
+                    <li>Categorias</li>
+                    <li>Blog</li>
+                </ul>
+                <form action = "">
+                    <input type = "search"  class = "search" placeholder = "Buscar...">
+                </form>
+            </nav>
+        </header>
+    </body>
+
+</html>
