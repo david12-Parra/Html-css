@@ -42,22 +42,18 @@
    margin-left: 25px;
 }
 
+.navegation .diff::after {
+    content: "";
+}
+
 .navegation li::after {
     content: " | ";
 }
 
-.navegation li:hover {
-    padding: 2px;
-    font-size: 16px;
-    background-color: aqua;
-    border-radius: 5px;
-    border: 2px solid black;
-}
-
-
 .search {
-   height: 20px;
+   height: 25px;
    border-radius: 6px;
    margin-left: 20px;
+   border: 2px solid black;
 }
 
