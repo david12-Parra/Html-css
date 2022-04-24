@@ -1,0 +1,100 @@
+:root {
+    --width-key: 100vw;
+    --font-size: 1.8rem;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%; /* Este nos ayuda para utilizar la medida de (rem) que en este caso equivale a 10pixeles.*/
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: var(--width-key);
+    height: 12vh;
+    background-color: aquamarine;
+    font-size: var(--font-size);
+    display: flex;
+    align-items: center;
+    flex-flow: row-reverse;
+    flex-wrap: wrap;
+}
+
+
+.header-nav ul {
+    display: flex;
+}
+
+
+.header-nav li {
+    list-style: none;
+}
+
+
+.header-nav a {
+    color: white;
+    font-size: 2rem;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+
+.header-nav a:hover {
+    text-decoration: 2px  underline solid black;
+}
+
+
+.header-nav a::after {
+    content: " |";
+}
+
+
+.header-nav .second {
+    margin-left: 1rem;
+}
+
+
+.header-nav .second::after{
+    content: none;
+}
+
+
+.header-nav .first {
+    border: 0.2rem solid black;
+    padding: 0.6rem;
+    margin-right: 4rem;
+    border-radius: 0.4rem;
+}
+
+
+.header-nav .first::after {
+    content: none;
+}
+
+.header-nav .first:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: rgb(43, 171, 160);
+}
+
+
+main {
+    width: var(--width-key);
+    height: 70vh;
+    background-color: brown;
+    font-size: var(--font-size);
+}
+
+
+footer {
+    width: var(--width-key);
+    height: 10vh;
+    background-color: darkgrey;
+    font-size: var(--font-size);
+    text-align: center;
+}

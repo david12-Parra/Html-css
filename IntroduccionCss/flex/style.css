@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/*
+ Cada vez que vayamos a utilizar display: flex, nosotros debemos utilizar un contenedor padre para poderle aplicarle los estilos a sus hijos.
+  -Flex -> indica que los elementos se van a acomodar diferente a lo normal, que en este caso los posiciona de forma row.
+  -Flex-direction -> nos ayuda definir en que posicion se van acomodar los elementos contenidos en nuestro contenedor padre.
+  -Flex-wrap -> nos ayuda a tener un diseño responsive, es decir, cada vez que el contenido no tenga espacio este los acomoda en la parte 
+   inferior de la pagina web.
+  -Justify content -> nos ayuda a alinear el contenido de un contenedor.
+   */
+.container {
+    border: 0.3rem solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1 {
+    background-color: aqua;
+}
+
+.box2 {
+    background-color: aquamarine;
+}
+
+.box3 {
+    background-color: azure;
+}
+
+.box4 {
+    background-color: beige;
+}
+
+.box5 {
+    background-color: bisque;
+}
+
+.box6 {
+    background-color: blanchedalmond;
+}
+
+
+
+

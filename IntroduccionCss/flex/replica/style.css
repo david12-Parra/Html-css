@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 1rem;
+}
+
+.header-nav {
+    padding: 0.7rem;
+    font-size: 1.2em;
+    height: 3rem;
+    background-color: aquamarine;
+    display: flex;
+}
+
+.navegation {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.header-nav ul {
+    list-style: none;
+    margin-left: 40rem;
+}
+
+.header-nav ul li {
+    display: inline-block;
+    margin-left: 3.5rem;
+}
+
+.header-nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-nav ul a:hover {
+    text-decoration: underline solid 0.15rem black;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.first {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: pink;
+}
+
+.box {
+    width: 10rem;
+    height: 5rem;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.box1 {
+    background-color: aqua;
+}
+
+.box2 {
+    background-color: aquamarine;
+}
+
+.box3 {
+    background-color: azure;
+}
+
+.box4 {
+    background-color: beige;
+}
+
+.box5 {
+    background-color: bisque;
+}
+
+.second {
+    width: 70%;
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: gray;
+}
+
+footer section {
+    text-align: center;
+}
+
