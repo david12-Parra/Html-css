@@ -1,0 +1,17 @@
+@media (min-width: 600px) {
+    .c1 {
+        width: 25%;
+    }
+
+    .c2 {
+        width: 75%;
+    }
+
+    .c3 {
+        width: 50%;
+    }
+
+    .c4 {
+        width: 50%;
+    }
+}

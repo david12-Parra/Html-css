@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang ="es">
+
+    <head>
+        <meta charset ="UTF-8">
+        <title>PICTURE</title>
+        <meta name ="description" content ="Responsive design, css, desarollo web, picture responsivos.">
+        <meta name ="robots" content ="index, follow">
+        <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+        <link rel ="stylesheet" href ="style.css">
+    </head>
+
+    <body>
+
+        <header class ="header-nav">
+            <nav>
+                <ul>
+                    <li><a href ="">Home</a></li>
+                    <li><a href ="">Introduccion</a></li>
+                    <li><a href ="">Cursos</a></li>
+                    <li><a href ="">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class ="main-container">
+            <picture>
+                <source srcset ="./img_responsive/large.jpg" media="(min-width: 1300px)">
+                <source srcset ="./img_responsive/medium.jpg" media="(min-width: 1000px)">
+                <img src="./img_responsive/small.jpg" alt="imagen de un perro">
+            </picture>
+            
+        </main>
+
+    </body>
+
+</html>
